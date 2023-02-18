@@ -14,7 +14,7 @@ def cpf_generator(cpf):
             number += 1
         
         new_cpf = first_digit(new_cpf)
-        new_cpf = second_number(new_cpf)
+        new_cpf = second_digit(new_cpf)
 
         print(new_cpf)
 
@@ -43,7 +43,7 @@ def first_digit(new_cpf):
 
     return new_cpf
     
-def second_number(new_cpf):
+def second_digit(new_cpf):
 
     cpf_number_sum = 0
 
